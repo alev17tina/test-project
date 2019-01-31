@@ -1,0 +1,35 @@
+.reviews {
+    // background: $secondary;
+    &-text, &-autor {
+        font-family: $font-family-base;
+        font-size: 30px;
+        line-height: 1;
+        color: $primary-text;
+        font-weight: $font-weight-subtitle;
+        padding: 10px 230px 0 240px;
+        text-align: left;
+    }
+    &-autor {
+        text-align: right;
+        padding-bottom: 140px;
+    }
+    &-img {
+        margin-left: -20px;
+        padding-top: 48px;
+    }
+    &-indicators {
+        margin-right: 0;
+        margin-left: 45%;
+        color: $primary;
+    }
+}
+.reviews-indicators {
+    margin-left: 80%;
+    margin-bottom:100px;
+}
+.reviews-indicators li {
+    border: 4px solid $primary;
+    &:active {
+        background-color: $primary;
+    }
+}

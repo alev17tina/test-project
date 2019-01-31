@@ -1,0 +1,63 @@
+.forms {
+	background: url(/src/assets/img/forms-background.jpg);
+		&-title {
+		font-size: $font-size-title;
+		font-weight: $font-weight-title;
+		font-family: $font-family-base;
+		color: $primary-text;
+		line-height: 1;
+		display: inline-flex;
+		align-items: center;
+		text-shadow: 1px 1px 20px $secondary;
+	}
+
+	&-button {
+		border-radius: 15px;
+		background: #e9d6ca;
+		border-style: none;
+		font-size: 30px;
+		font-family: "Libre Baskerville", serif;
+		color: #685042;
+		padding: 5px 46px;
+		-webkit-box-shadow: 7px 7px 1px #685042;
+		box-shadow: 7px 7px 1px #685042;
+
+    	&:hover {
+    		background: #685042;
+    		color: #e9d6ca;
+    		-webkit-box-shadow: 7px 7px 1px #e9d6ca;
+    		box-shadow: 7px 7px 1px #e9d6ca;
+		}
+	}
+	&-text {
+		font-family: $font-family-little;
+		color: #685042b9;
+		text-align: left;
+		font-size: 25px;
+		font-weight: $font-weight-text;
+		letter-spacing: -0.65px;
+		padding: 0px 8px 0 88px;
+		line-height: 1.45;
+	}	
+}
+.form-control {
+	font-family: $font-family-little;
+	color: #684f40b9!important;
+	text-align: left;
+	font-size: 25px;
+	font-weight: $font-weight-text;
+	letter-spacing: -0.65px;
+	padding: 0 0 0 32px;
+	// line-height: 1.45;
+	height: 62px;
+	width: 500px;
+	background-color: $secondary;
+	border: 1px solid $primary;
+	border-radius: 1rem;
+	transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+	border-color: $primary;
+}
+.forms-comments {
+	height: 206px;
+	align-content: top;
+}
