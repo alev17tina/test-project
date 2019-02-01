@@ -7,8 +7,10 @@
   <title>
     {% block title %}{% endblock %}
   </title>
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Libre+Baskerville:400,400i,700|Norican" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/swiper.min.css">
   <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
@@ -64,6 +66,7 @@
   </script> -->
   <script>
       var swiper = new Swiper('.catalog-slider', {
+        slidesPerView: 3,
         pagination: {
         el: '.swiper-pagination',
         clickable: true,

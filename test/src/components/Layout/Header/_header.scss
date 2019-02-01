@@ -3,9 +3,12 @@
 
 	&-title {
 		font-size: 64px;
-	}
-	&-img {
-		padding-top: 2px;
+		font-weight: $font-weight-title;
+		font-family: $font-family-base;
+		color: $primary-text;
+		line-height: 1;
+		align-items: center;
+		padding-top: 4px;
 	}
 
 	&:after {
@@ -26,6 +29,7 @@
 		margin: 2px auto;
 	}
 }
+
 .nav-block {
 	padding-left: 14px;
 }

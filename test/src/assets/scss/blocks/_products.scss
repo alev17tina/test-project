@@ -1,9 +1,11 @@
 .products {
 	text-align: center;
-	padding-top: 80px;
-	padding-bottom: 100px;
+    padding-top: 91px;
+    padding-bottom: 58px;
 
 	&-title {
+		padding-top: 0px;
+		padding-bottom: 19px;
 		// font-family: $font-family-base;
 		// font-size: 60px;
 		// color: $primary-text;
@@ -25,3 +27,6 @@
 //        line-height: 1;
 //     }
 // }
+
+
+
