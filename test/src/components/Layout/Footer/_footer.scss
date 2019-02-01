@@ -6,7 +6,11 @@
         font-family: $font-family-little;
         font-size: 16px;
         letter-spacing: -1px;
-    }
+}
+&-contacts p {
+    padding: 0;
+    margin:0;
+}
 &-contacts {
         text-align: left;
     }
@@ -25,12 +29,13 @@
 }
 .copywrite-text {
     color: $secondary;
+    font-size: 26px;
     &:before {
     	content: '';
     	display: block;
     	height: 1px;
     	width: 100%;
     	background: $secondary;
-        margin: 40px 0;
+        margin: 30px 0;
     }
 }
