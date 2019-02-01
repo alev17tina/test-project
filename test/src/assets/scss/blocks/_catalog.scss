@@ -9,8 +9,11 @@
 		color: $primary;
 		line-height: 1;
 	}
+	&-navbar {
+		padding: 7px 14px;
+	}
 	&-nav {
-		margin-left: -50px;
+		margin-left: -40px;
 		padding-top: 5px;
 		padding-bottom: 0;
 		margin-bottom: 0;
@@ -20,17 +23,24 @@
 		vertical-align: middle;
 	}
 	&-link {
-		font-size: 45px;
-		font-weight: 900;
-		text-decoration: none;
+		padding: .5rem 1.5rem;
+	}
+	&-pagination {
+		padding: 0 18px;
 		&--first {
 			opacity: 0.9;
-			padding-top: 25px;
+			font-size: 50px;
 		}
 		&--second {
 			opacity: .3;
-			padding-top: 25px;
+			font-size: 50px;
 		}
+		&:hover {
+			color: $primary;
+		}
+	}
+	&-navigation {
+		margin-top: 44px;
 	}
 	&-slider {
 		overflow: hidden;
@@ -101,6 +111,9 @@
 	height: 100%;
 	border-radius: 10px;
 	overflow: hidden;
+}
+.media {
+	padding-top: 15px;
 }
 .vanilla, .frutty {
     display: none;

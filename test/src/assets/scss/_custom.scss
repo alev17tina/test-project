@@ -141,7 +141,7 @@ body {
 }
 
 .carousel-indicators li:active {
-	background: transparent;
+	background: $primary;
 }
 .carousel-indicators li:hover {
 	background: transparent;
@@ -186,6 +186,9 @@ body {
 	padding-right: 40px;
 	padding-left: 40px;
 }
+.slick-next, .slick-prev {
+	display: none;
+}
 
 /* Dots */
 .slick-dotted.slick-slider
@@ -197,13 +200,16 @@ body {
 .slick-dots
 {
     position: absolute;
-    bottom: 55px;
+    bottom: 45px;
     display: block;
-    width: 100%;
+	width: 100%;
     padding: 0;
-    margin: 0;
+	margin: 0;
+	margin-left: 300px;
     list-style: none;
-	text-align: center;
+	text-align: right;
+	transform: translateX(-50%);
+	padding-left: 20px;
 }
 .slick-dots li
 {
@@ -280,7 +286,10 @@ body {
 	transition: opacity .6s ease;
 }
 
-
+:active, :hover, :focus {
+	outline: 0;
+	outline-offset: 0;
+}
 
 
 /* Arrows */
