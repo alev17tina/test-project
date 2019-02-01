@@ -1,0 +1,99 @@
+.forms {
+	background: url(/img/forms-background.jpg);
+	background-repeat: no-repeat;
+    background-position: center top;
+		&-title {
+		font-size: $font-size-title;
+		font-weight: $font-weight-title;
+		font-family: $font-family-base;
+		color: $primary-text;
+		line-height: 1;
+		display: inline-flex;
+		align-items: center;
+		text-shadow: 1px 1px 20px $secondary;
+		padding-top: 150px;
+		padding-bottom: 30px;
+	}
+	&-text {
+		font-family: $font-family-little;
+		color: #685042b9;
+		text-align: left;
+		font-size: 25px;
+		font-weight: $font-weight-text;
+		letter-spacing: -0.65px;
+		padding: 0px 8px 0 88px;
+		line-height: 1.45;
+	}
+	&-comments {
+		height: 206px;
+		align-content: top;
+	}
+
+	// &-button {
+	// 	border-radius: 15px;
+	// 	background: #e9d6ca;
+	// 	border-style: none;
+	// 	font-size: 30px;
+	// 	font-family: "Libre Baskerville", serif;
+	// 	color: #685042;
+	// 	padding: 5px 46px;
+	// 	-webkit-box-shadow: 7px 7px 1px #685042;
+	// 	box-shadow: 7px 7px 1px #685042;
+
+    // 	&:hover {
+    // 		background: #685042;
+    // 		color: #e9d6ca;
+    // 		-webkit-box-shadow: 7px 7px 1px #e9d6ca;
+	// 		box-shadow: 7px 7px 1px #e9d6ca;
+	// 		-webkit-transform: scale(1.2);
+	// 		-ms-transform: scale(1.2);
+	// 		transform: scale(1.2);
+}
+.form {
+	&-group {
+		padding-bottom: 15px;
+	}
+	&-control {
+		font-family: $font-family-little;
+		color: #684f40b9!important;
+		text-align: left;
+		font-size: 25px;
+		font-weight: $font-weight-text;
+		letter-spacing: -0.65px;
+		padding: 0 0 0 32px;
+		// line-height: 1.45;
+		height: 62px;
+		width: 100%;
+		background-color: $secondary;
+		border: 1px solid $primary;
+		border-radius: 1rem;
+		transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+		border-color: $primary;
+	}
+}
+
+input {
+	outline: none;
+}
+
+::-webkit-input-placeholder {
+ color: $primary-text;
+}
+::-moz-placeholder {
+	color: $primary-text;
+}
+:-ms-input-placeholder {
+	color: $primary-text;
+}
+:-moz-placeholder {
+	color: $primary-text;
+}
+
+@include placeholder {
+	color: $primary-text;
+}
+.forms-comments {
+	@include placeholder {
+	  vertical-align: top;
+	}
+  }

@@ -1,0 +1,123 @@
+.about {
+	text-align: center;
+	padding-top: 80px;
+	padding-bottom: 78px;
+
+	&-title {
+		// font-family: $font-family-base;
+		// font-size: 60px;
+		// font-weight: $font-weight-title;
+		// letter-spacing: 1px;
+		// color: $primary-text;
+		// text-align: center;
+		padding-top: 6px;
+	}
+
+	&-subtitle {
+		// font-family: $font-family-base;
+		// font-size: 38px;
+		// line-height: 1;
+		// color: $primary-text;
+		padding-left: 88px;
+		padding-top: 46px;
+		letter-spacing: 1.8px;
+
+		// font-weight: $font-weight-subtitle;
+		&:after {
+			content: '';
+			display: block;
+			height: 2px;
+			width: 70%;
+			background: $primary;
+			margin: 32px auto;
+		}
+	}
+
+	&-text {
+		font-family: $font-family-little;
+		color: $primary-text;
+		text-align: center;
+		font-size: 25px;
+		font-weight: $font-weight-text;
+		letter-spacing: -0.65px;
+		padding: 0px 8px 0 88px;
+		line-height: 1.45;
+	}
+
+	&-img {
+		padding-top: 28px;
+		padding-left: 30px;
+	}
+}
+
+
+
+
+// .about {
+// 	text-align: center;
+// 	padding-top: 80px;
+// 	padding-bottom: 110px;
+
+//     &-title {
+//     	font-size: 70px;
+//     	font-weight: 900;
+//     	font-family: "Norican", cursive;
+//     	color: #685042;
+//     	line-height: 1;
+//     	padding-top: 6px;
+//     	// display: inline-flex;
+//     	// align-items: center;
+
+//     	// &:before, &:after {
+//     	// 	width: 68px;
+//     	// 	height: 26px;
+//     	// 	content: '';
+//     	// 	display: block;
+//     	// 	margin: 0 10px;
+//     	// }
+
+//     	// &:before {
+//     	// 	background-image: url(../img/beautyfy-left.png)
+//     	// }
+
+//     	// &:after {
+//     	// 	background-image: url(../img/beautyfy-left.png)
+//     	// }
+//     }
+
+//     &-subtitle {
+//     	font-family: "Norican", cursive;
+//     	font-size: 38px;
+//     	line-height: 1;
+//     	color: #685042;
+//     	font-weight: 500;
+//     	padding-left: 88px;
+//     	padding-top: 49px;;
+//         letter-spacing: 1.8px;
+//         &:after {
+//             content: '';
+//             display: block;
+//             height: 2px;
+//             width: 70%;
+//             background: #685042;
+//             margin: 32px auto;
+//         }
+//     }
+
+//     &-text {
+//     	font-family: "Libre Baskerville", serif;
+//     	color: #685042;
+//     	text-align: center;
+//     	font-size: 25px;
+//     	font-weight: 500;
+//     	letter-spacing: -0.65px;
+//     	padding: 1px 8px 0 88px;
+//     	line-height: 1.45;
+//     }
+
+//     &-img {
+//     	padding-top: 12px;
+//     	padding-left: 30px;
+//     }
+
+// }

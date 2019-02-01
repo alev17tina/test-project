@@ -1,0 +1,35 @@
+.logo {
+	height: 100px;
+
+	&-title {
+		font-size: 64px;
+		font-weight: $font-weight-title;
+		font-family: $font-family-base;
+		color: $primary-text;
+		line-height: 1;
+		align-items: center;
+		padding-top: 4px;
+	}
+
+	&:after {
+		content: '';
+		display: block;
+		height: 1px;
+		width: 100%;
+		background: $primary;
+		margin: 0px auto;
+	}
+
+	&-second:after {
+		content: '';
+		display: block;
+		height: 2px;
+		width: 100%;
+		background: $primary;
+		margin: 2px auto;
+	}
+}
+
+.nav-block {
+	padding-left: 14px;
+}

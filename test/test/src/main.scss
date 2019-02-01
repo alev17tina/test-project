@@ -1,0 +1,13 @@
+@import "normalize";
+@import 'plugins/slick-1.8.1/slick/slick.scss';
+@import 'plugins/slick-1.8.1/slick/slick-theme.scss';
+@import 'plugins/swiper-4.4.6/src/swiper.less';
+@import 'plugins/swiper-4.4.6/dist/css/swiper.min.css';
+@import "./assets/scss/_default";
+@import "./assets/scss/_mixins";
+@import "./assets/scss/_vars";
+@import "./assets/scss/_custom";
+@import "./assets/scss/blocks/blocks";
+@import "./components/Layout/Header/header";
+@import "./components/Layout/Footer/_footer";
+
