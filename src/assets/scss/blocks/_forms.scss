@@ -2,7 +2,7 @@
 	background: url(/img/forms-background.jpg);
 	background-repeat: no-repeat;
 	background-position: center top;
-	padding-bottom: 249px;
+	padding-bottom: 136px;
 		&-title {
 		font-size: $font-size-title;
 		font-weight: $font-weight-title;
@@ -74,6 +74,26 @@ input {
 	padding-top: 20px;
 	height: 206px;
 }	
+// textarea .form-control {
+// 	height: 206px;
+// 	color: $primary;
+// 	outline: none;
+	
+// }
+// textarea .form-control {
+// 	color: $primary;
+// 	outline: none;
+// }
+textarea.form-control {
+	height: 206px;
+	color: $primary;
+	outline: none;
+	
+}
+input.form-control {
+	color: $primary;
+	outline: none;
+}
 
 ::-webkit-input-placeholder {
  color: $primary-text;
@@ -94,5 +114,16 @@ input {
 .forms-comments {
 	@include placeholder {
 	  vertical-align: top;
+	  color: $primary-text;
+	}
+}
+textarea.form-control {
+	@include placeholder {
+	  color: $primary-text;
+	}
+}
+input.form-control {
+	@include placeholder {
+	  color: $primary-text;
 	}
 }

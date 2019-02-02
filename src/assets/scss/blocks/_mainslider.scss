@@ -36,6 +36,7 @@
 	position: relative;
 	z-index: 1;
     overflow: hidden;
+    padding-bottom: 102px;
     
     &-overlay {
         min-height: 100%;
@@ -55,7 +56,8 @@
         color: $secondary;
         font-size: 119px;
         text-shadow: $primary 8px 6px 5px;
-        padding-top: 160px;
+        // padding-top: 160px;
+        padding-top: 146px;
     }
     
     &-subtitle {
@@ -64,8 +66,14 @@
         font-size: 30px;
         font-weight: 500;
         text-shadow: $primary 0 0 10px;
-        padding-top: 58px;
-        padding-bottom: 69px;
+        // padding-top: 58px;
+        // padding-bottom: 69px;
+        padding-top: 20px;
+        padding-bottom: 19px;
+    }
+    &-carouselitem {
+        height: 100%;
+        width: auto;
     }
 
     // &-button {
