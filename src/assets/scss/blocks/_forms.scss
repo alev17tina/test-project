@@ -32,6 +32,7 @@
 	&-button {
 		color: $secondary;
 		background: $primary;
+		padding: 5px 56px;
 		box-shadow: 7px 7px 1px $secondary;
 
     	&:hover, &:active, &:focus {
@@ -40,6 +41,11 @@
 			box-shadow: 7px 7px 1px $primary;
 		}
 	}
+}
+.btn-primary:not(:disabled):not(.disabled):active {
+	background: $secondary;
+	color: $primary;
+	border-color: $secondary;
 }
 .form {
 	&-group {
@@ -63,6 +69,7 @@
 		border-color: $primary;
 		&:active, &:hover, &:focus {
 			outline: none;
+			border-color: $secondary;
 		}
 	}
 }
@@ -84,13 +91,13 @@ input {
 // 	color: $primary;
 // 	outline: none;
 // }
-textarea.form-control {
+.form-control textarea {
 	height: 206px;
 	color: $primary;
 	outline: none;
 	
 }
-input.form-control {
+.form-control input {
 	color: $primary;
 	outline: none;
 }
